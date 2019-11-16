@@ -15,7 +15,7 @@ void setup() {
   delay(1000);
   pinMode(LED_BUILTIN, OUTPUT);      
   pinMode(led, OUTPUT);                 
-  WiFi.begin(WIFI_SSID, WIFI_PASSWORD);                                      //try to connect with wifi
+  WiFi.begin(WIFI_SSID, WIFI_PASSWORD);                                      //try to connect
   Serial.print("Connecting to ");
   Serial.print(WIFI_SSID);
   while (WiFi.status() != WL_CONNECTED) {
